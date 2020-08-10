@@ -9,17 +9,17 @@
         <div class="header_bar">
             <div class='acenter'>
                 <ul>
-                    <li href="/">
+                    <li href="/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
                         <a href="/" class="header_element">
                             <b>Me</b>
                         </a>
                     </li>
-                    <li href="/photos/">
+                    <li href="/photos/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
                         <a href="/photos/" class="header_element">
                             <b>Photos</b>
                         </a>
                     </li>
-                    <li>
+                    <li href="/contact/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
                         <a href="/contact/" class="header_element">
                             <b>Contact</b>
                         </a>
@@ -32,6 +32,33 @@
         <div>
         </div>
         <script type="text/javascript">
+            function headerHover(x) {
+                x.style.backgroundColor = "lavender";
+            }
+            function headerUnhover(x) {
+                x.style.backgroundColor = "#00274C"
+            }
         </script>
     </body>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href='https://github.com/arjunsr1/'>
+                        <img class="footer_elem" src="/static/images/GitHub-Mark-32px.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/arjunramanathan2/">
+                        <img class="footer_elem" src="/static/images/fb_black_transparent.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/arjun-ramanathan-176b83153/">
+                        <img class="footer_elem" src="/static/images/linkedin-sign.png"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </html>
