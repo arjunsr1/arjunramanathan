@@ -7,29 +7,54 @@
         <title>Arjun S. Ramanathan</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" type="text/css">
         <div class="header_bar">
-            <div class='acenter'>
-                <ul>
-                    <li href="/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
-                        <a href="/" class="header_element">
-                            <b>Me</b>
-                        </a>
-                    </li>
-                    <li href="/photos/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
-                        <a href="/photos/" class="header_element">
-                            <b>Photos</b>
-                        </a>
-                    </li>
-                    <li href="/contact/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
-                        <a href="/contact/" class="header_element">
-                            <b>Contact</b>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li href="/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
+                    <a href="/" class="header_element">
+                        <b>Arjun</b>
+                    </a>
+                </li>
+                <li href="/photos/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
+                    <a href="/photos/" class="header_element">
+                        <b>Photos</b>
+                    </a>
+                </li>
+                <li href="/contact/" class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
+                    <a href="/contact/" class="header_element">
+                        <b>Contact</b>
+                    </a>
+                </li>
+            </ul>
         </div>
     </head>
     <body> 
-        <div>
+        <div class="acenter">
+            <h1>
+                <b class="contact_header">Contact Information</b>
+            </h1>
+            <p>
+                <b class="contact_info">
+                    If you'd like to contact me, you can reach me at one of the following:
+                </b>
+            </p>
+            <div class="contact_box">
+                <p class="contact_info">
+                    Phone Number: <b class="contact_header">(408)-355-0826</b>
+                </p>
+                <hr>
+                <p class="contact_info">
+                    Email (Primary): <a href="mailto:arjun11@gmail.com" class="contact_header">arjun11@gmail.com</a>
+                </p>
+                <hr>
+                <p class="contact_info">
+                    Email (Secondary): <a href="mailto:arjunsr@umich.edu" class="contact_header">arjunsr@umich.edu</a>
+                </p>
+            </div>
+            <h1>
+                <b class="contact_header">Resume</b>
+            </h1>
+            <p>
+                <a class="contact_info" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">My Resume</a>
+            </p>
         </div>
         <script type="text/javascript">
             function headerHover(x) {
@@ -39,26 +64,28 @@
                 x.style.backgroundColor = "#00274C"
             }
         </script>
+        <footer>
+            <div class="footer">
+                <ul class="acenter">
+                    <li>
+                        <a href='https://github.com/arjunsr1/'>
+                            <img class="footer_elem" src="/static/images/GitHub-Mark-32px.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/arjunramanathan2/">
+                            <img class="footer_elem" src="/static/images/fb_black_transparent.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/arjun-ramanathan-176b83153/">
+                            <img class="footer_elem" src="/static/images/linkedin-sign.png"/>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <b class="copyright">© Arjun Ramanathan 2020</b>
+            </div>
+        </footer>
     </body>
-    <footer>
-        <div class="footer">
-            <ul>
-                <li>
-                    <a href='https://github.com/arjunsr1/'>
-                        <img class="footer_elem" src="/static/images/GitHub-Mark-32px.png"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/arjunramanathan2/">
-                        <img class="footer_elem" src="/static/images/fb_black_transparent.png"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/arjun-ramanathan-176b83153/">
-                        <img class="footer_elem" src="/static/images/linkedin-sign.png"/>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
 </html>
