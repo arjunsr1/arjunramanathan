@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.aleft {
+    text-align: left;
+}
+.aright {
+    text-align: right;
+}
+.acenter {
+    text-align: center;
+}
+.header_element {
+    color: white;
+    text-decoration:none;
+    font-family: 'Roboto';
+}
+.header_bar {
+    background-color:#FFCB05;
+    padding: 24px;
+}
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Habibi';
+    font-size: 22px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    border:1px solid #FFCB05;
+    display: inline;
+    padding: 8px;
+    background-color:#00274C;
+}
+li:hover {
+    background-color:lavender;
+}
