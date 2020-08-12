@@ -9,45 +9,9 @@
 .acenter {
     text-align: center;
 }
-.header_element {
-    color: white;
-    text-decoration:none;
-    font-family: 'Roboto';
-    font-weight: 100;
-}
-.header_bar {
-    background-color:#FFCB05;
-    padding: 24px;
-    text-align: center;
-}
-.header_list { 
-    border: 1px solid #FFCB05;
-    background-color:#00274C;
-}
-.copyright {
-    font-family: 'Roboto';
-    font-size: 14px;
-    color: #00274C;
-}
-.footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    background-color: #FFCB05;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    margin: 0px;
-}
-.footer_elem {
-    height: 36px;
-    width: 36px;
-}
 .contact_box {
     border-radius: 30px;
     border: 2px solid #00274C;
-    padding: 12px; 
     width: 500px;
     margin: auto;
     text-align: center; 
@@ -68,25 +32,67 @@
     width: 550px;
     margin: auto;
 }
-
+.copyright {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #00274C;
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: #87CEFA;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0px;
+}
+.footer_elem {
+    height: 36px;
+    width: 36px;
+}
+.header_element {
+    color: #00274C;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+.header_bar {
+    background-color:#87CEFA;
+    padding: 24px;
+    text-align: center;
+}
+.header_list { 
+    border: 3px solid #87CEFA;
+    border-radius: 25px;
+}
+.header_list:hover{
+    background-color: #B0E0E6;
+}
 body, html {
     margin: 0px;
     padding: 0px;
+    overflow-y: scroll;
 }
 body {
-    background-color:#D8D8D8;
+    background-color:#F0F8FF;
 }
 a{
     text-decoration:none;
 }
 ul {
     list-style-type: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px;
     display: inline;
 }
 li {
     display: inline;
-    padding: 8px;
+    text-align: center;
+    padding: 6px;
 }
+
+/* 
+ * Maize: #FFCB05
+ * Blue:  #00274C
+ * 
+ */
