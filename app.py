@@ -15,6 +15,10 @@ def contact():
 def photos():
     return flask.render_template('photos.html')
 
+@app.route('/resume/', methods=['GET'])
+def render_resume():
+    return flask.send_from_directory(os.path.join(app.root_path, 'static'), 'resume.pdf')
+
 @app.route('/favicon.ico')
 def favicon():
     return flask.send_from_directory(os.path.join(app.root_path, 'static'),
