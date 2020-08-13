@@ -38,7 +38,7 @@
     color: #00274C;
 }
 .footer {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     bottom: 0;
     text-align: center;
@@ -68,6 +68,20 @@
 .header_list:hover{
     background-color: #B0E0E6;
 }
+.personal_intro_box {
+    border-radius: 30px;
+    border: 2px solid #00274C;
+    padding: 8px;
+    width: 1250px;
+    margin: auto;
+    text-align: center;
+}
+.personal_intro_header {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #00274C;
+    text-align: left;
+}
 body, html {
     margin: 0px;
     padding: 0px;
@@ -83,11 +97,9 @@ ul {
     list-style-type: none;
     margin: 0px auto;
     padding: 0px;
-    display: inline;
 }
 li {
     display: inline;
-    text-align: center;
     padding: 6px;
 }
 
