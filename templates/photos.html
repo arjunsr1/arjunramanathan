@@ -8,22 +8,22 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" type="text/css">
         <div class="header_bar">
             <ul>
-                <li class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
+                <li class="header_list"  >
                     <a href="/" class="header_element">
                         <b>Arjun</b>
                     </a>
                 </li>
-                <li class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
+                <li class="header_list"  >
                     <a href="/photos/" class="header_element">
                         <b>Photos</b>
                     </a>
                 </li>
-                <li class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
+                <li class="header_list"  >
                     <a href="/contact/" class="header_element">
                         <b>Contact</b>
                     </a>
                 </li>
-                <li class="header_list" onmouseover="headerHover(this)" onmouseout="headerUnhover(this)">
+                <li class="header_list"  >
                     <a href="/resume/" class="header_element">
                         <b>Resume</b>
                     </a>
@@ -32,26 +32,41 @@
         </div>
     </head>
     <body> 
-        <div>
+        <div class="acenter">
+            <h1>
+                <b class="contact_header">Photos of me</b>
+            </h1>
+            <p>
+                <b class="contact_info">
+                    <div class="contact_blurb">
+                        Click the picture to cycle through some pics of me!
+                    </div>
+                </b>
+            </p>
+            <div class="photo_box">
+                <img id="photo_change" onclick="getImagePath()" src={{img_url}}>
+            </div>
         </div>
-        <script type="text/javascript" src="/static/funcs.js"></script>
+        <br><br>
+        <script type="text/javascript" src="/static/funcs.js">
+        </script>
     </body>
     <footer>
         <div class="footer">
             <ul>
                 <li>
                     <a href='https://github.com/arjunsr1/'>
-                        <img class="footer_elem" src="/static/images/GitHub-Mark-32px.png"/>
+                        <img class="footer_elem" src="/static/logos/GitHub-Mark-32px.png"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/arjunramanathan2/">
-                        <img class="footer_elem" src="/static/images/fb_black_transparent.png"/>
+                        <img class="footer_elem" src="/static/logos/fb_black_transparent.png"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/arjun-ramanathan-176b83153/">
-                        <img class="footer_elem" src="/static/images/linkedin-sign.png"/>
+                        <img class="footer_elem" src="/static/logos/linkedin-sign.png"/>
                     </a>
                 </li>
             </ul>
