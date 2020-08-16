@@ -9,6 +9,10 @@
 .acenter {
     text-align: center;
 }
+.blurb_img{
+    width: 200px;
+    height: 200px;
+}
 .contact_box {
     border-radius: 30px;
     border: 2px solid #00274C;
