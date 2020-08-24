@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 .aleft {
     text-align: left;
 }
@@ -27,7 +27,7 @@
 }
 .contact_info {
     font-family: 'Roboto';
-    font-weight: 100;
+    font-weight: 300;
     color: #00274C;
     font-size: 24px;
     text-align: center;
@@ -38,6 +38,7 @@
 }
 .copyright {
     font-family: 'Roboto';
+    font-weight: 400;
     font-size: 14px;
     color: #00274C;
 }
@@ -65,6 +66,7 @@
     color: #00274C;
     text-decoration: none;
     font-family: 'Roboto';
+    font-weight: 400;
 }
 .header_bar {
     background-color:#87CEFA;
@@ -84,7 +86,7 @@
 }
 .main_page_body {
     font-family: 'Roboto';
-    font-weight: 100;
+    font-weight: 300;
     color: #00274C;
     font-size: 20px;
     text-align: justify;
@@ -117,7 +119,7 @@
 }
 .personal_intro_body {
     font-family: 'Roboto';
-    font-weight: 100;
+    font-weight: 300;
     color: #00274C;
     font-size: 20px;
     text-align: justify;
