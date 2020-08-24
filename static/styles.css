@@ -50,9 +50,16 @@
     padding-bottom: 16px;
     margin: 0px;
 }
+.footer_list:hover {
+    background-color: #B0E0E6;
+}
 .footer_elem {
     height: 36px;
     width: 36px;
+    color: black;
+}
+.footer_list {
+    border: 3px solid #87CEFA;
 }
 .header_element {
     color: #00274C;
@@ -67,6 +74,7 @@
 .header_list { 
     border: 3px solid #87CEFA;
     border-radius: 25px;
+    font-size: xx-large;
 }
 .header_list:hover{
     background-color: #B0E0E6;
@@ -84,7 +92,6 @@
 }
 .main_page_box {
     border-radius: 30px;
-    /* border: 2px solid #00274C; */
     padding: 8px;
     max-height: 200px;
     max-width: 550px;
@@ -94,10 +101,10 @@
     font-weight: 400;
     color: #00274C;
     text-align: right;
+    font-size: x-large;
 }
 .personal_intro_box {
     border-radius: 30px;
-    /* border: 2px solid #00274C; */
     padding: 8px;
     max-width: 425px;
 }
@@ -106,6 +113,7 @@
     font-weight: 400;
     color: #00274C;
     text-align: left;
+    font-size: x-large;
 }
 .personal_intro_body {
     font-family: 'Roboto';
@@ -120,7 +128,6 @@
     max-height: 100%;
 }
 .personal_img_box{
-    /* border: 2px solid #00274C; */
     height: 400px;
     margin-left: 16px;
     margin-top: 0px;
